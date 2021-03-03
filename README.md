@@ -6,7 +6,14 @@ AArch64 (ARMv8) images require a 64 bit OS like [Raspberry PI OS aarm64](https:/
 
 
 
-## How to run Docker + Portainer and configuring docker root storage to external USB3 device
+## Setup
+
+- Set `VOLUMES_STORAGE_PATH` variable in `common-env` file
+- Run a container script like `./portainer-ce.sh`
+
+
+
+# How to install Docker + Portainer and configuring Docker root storage path to external USB3 device
 
 Assuming that /dev/sda1 is USB3 storage...
 
